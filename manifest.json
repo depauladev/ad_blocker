@@ -1,0 +1,10 @@
+{
+    "name": "AdBlocker", 
+    "description": "Trying to understand how chrome extension works",
+    "manifest_version": 2,
+    "version": "1.0", 
+    "background": {
+        "scripts": ["ad_urls.js", "main.js"]
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
